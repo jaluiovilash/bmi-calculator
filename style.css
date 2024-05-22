@@ -4,24 +4,60 @@
 }
 
 body {
-    background-color: #e0f7e4;
-    color: #333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: "Varela Round", sans-serif;
+    background-color: white;
+    color: black;
 }
 
+nav {
+    font-size: 1.2rem;
+    background-color: #85ff5c;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover{
+    color: rgb(234, 255, 226);
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.logo h3{
+    margin: 0;
+}
+
+/* main body */
 h1 {
     margin: 15px 0;
 }
 
 .container {
     margin: 50px auto;
-    max-width: 80vw;
+    max-width: 75vw;
 }
 
 .inputBox{
-    width: 50px;
+    width: 80px;
     height: 22px;
     padding: 2px 5px;
     border-radius: 3px;
